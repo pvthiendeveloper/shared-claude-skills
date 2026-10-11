@@ -1,0 +1,388 @@
+{
+  "title": "Chó Pug: Từ cung điện hoàng đế đến chiếc sofa nhà bạn",
+  "slug": "cho-pug",
+  "lang": "vi",
+  "aspect": "16:9",
+  "voice": {
+    "engine": "elevenlabs",
+    "voice_id": "<YOUR_VIETNAMESE_VOICE_ID>",
+    "model": "eleven_v3",
+    "stability": 0.45,
+    "similarity_boost": 0.8,
+    "style": 0.4
+  },
+  "style": "Hand-drawn 2D doodle stickman explainer cartoon, like a marker-drawn web comic. Thick uniform black outlines with rounded ends, flat solid colours, no shading, no gradients, no texture on characters. Muted earthy palette (tan, warm brown, sage green, dusty grey, cream) with one warm orange or yellow accent. Simple flat background with few props and plenty of empty space, soft cream paper tone.",
+  "characters": [
+    {
+      "id": "PUG",
+      "lock": "a small chubby cartoon pug dog in the same doodle style: uniform fawn-beige fur everywhere including chest and belly (no coloured patches, no green), black wrinkled flat face mask, big round shiny black eyes, small black folded ears, tightly curled tail on its back, short stubby legs, small pink tongue, thick black outline. It is a real dog on four legs, never standing upright like a human."
+    },
+    {
+      "id": "MAN",
+      "lock": "a stickman with a large pure-white round head, two small solid black oval eyes, short thick black eyebrows, tiny curved line mouth, short messy black hair, mustard-yellow hoodie, dark grey jeans, white sneakers, thin black stick arms and legs, solid black mitten hands."
+    }
+  ],
+  "captions": true,
+  "scenes": [
+    {
+      "id": "s01",
+      "narration": "Có một giống chó mặt nhăn như ông cụ, ngủ ngáy như người, và từng sống trong cung điện hoàng đế.",
+      "image_prompt": "The pug sits on a red velvet royal cushion inside a grand ancient Chinese palace hall, chin raised proudly, golden lanterns behind it.",
+      "chars": [
+        "PUG"
+      ],
+      "motion": "zoom_in",
+      "motion_prompt": "The pug lifts its chin proudly and blinks slowly, the lanterns sway gently."
+    },
+    {
+      "id": "s02",
+      "narration": "Đó chính là chó Pug.",
+      "image_prompt": "Close-up portrait of the pug looking straight at the viewer with big round eyes and tongue slightly out, plain cream background.",
+      "chars": [
+        "PUG"
+      ],
+      "motion": "zoom_out",
+      "motion_prompt": "The pug tilts its head slightly, blinks and wiggles its tongue."
+    },
+    {
+      "id": "s03",
+      "narration": "Nhưng đằng sau khuôn mặt dễ thương ấy là một câu chuyện dài hơn hai nghìn năm.",
+      "image_prompt": "A long winding path drawn across rolling hills, with tiny pagodas at the far end and a small pug walking at the start. Wide shot.",
+      "chars": [
+        "PUG"
+      ],
+      "motion": "pan_right",
+      "motion_prompt": "The pug trots forward along the path, its curled tail bouncing."
+    },
+    {
+      "id": "s04",
+      "narration": "Pug có nguồn gốc từ Trung Quốc cổ đại.",
+      "image_prompt": "Wide establishing shot of an ancient Chinese city with curved pagoda roofs, a city wall and mountains behind, sunset sky. No close-up characters.",
+      "chars": [],
+      "motion": "pan_left",
+      "motion_prompt": "Small figures walk slowly through the city streets, clouds drift."
+    },
+    {
+      "id": "s05",
+      "narration": "Chúng được nuôi để làm bạn với vua chúa, chứ không phải để săn hay giữ nhà.",
+      "image_prompt": "An emperor stickman in a yellow robe sits on a throne holding the pug in his lap, smiling; a hunting bow lies unused in the corner.",
+      "chars": [
+        "PUG"
+      ],
+      "motion": "zoom_in",
+      "motion_prompt": "The emperor gently strokes the pug on his lap, the pug closes its eyes happily."
+    },
+    {
+      "id": "s06",
+      "narration": "Người ta kể rằng nếp nhăn trên trán Pug giống chữ Vương, nghĩa là vua.",
+      "image_prompt": "Extreme close-up of the pug's forehead wrinkles, three horizontal folds and one vertical fold, the wrinkles faintly highlighted in orange.",
+      "chars": [
+        "PUG"
+      ],
+      "motion": "zoom_in",
+      "motion_prompt": "The pug's forehead wrinkles move as it raises its brows, then it blinks."
+    },
+    {
+      "id": "s07",
+      "narration": "Thế kỷ mười sáu, các thương nhân Hà Lan mang Pug về châu Âu.",
+      "image_prompt": "A wooden sailing ship with orange flags crossing a calm sea, a tiny pug standing at the bow with ears flapping in the wind.",
+      "chars": [
+        "PUG"
+      ],
+      "motion": "pan_right",
+      "motion_prompt": "The ship rocks gently on the waves, the pug's ears flap in the wind."
+    },
+    {
+      "id": "s08",
+      "narration": "Và ở đó, một chú Pug đã làm nên lịch sử.",
+      "image_prompt": "The pug standing heroically on a hill with a cape blowing in the wind, a medieval European castle behind it.",
+      "chars": [
+        "PUG"
+      ],
+      "motion": "zoom_out",
+      "motion_prompt": "The pug stands proudly while its cape flutters in the wind."
+    },
+    {
+      "id": "s09",
+      "narration": "Năm 1572, một chú Pug tên Pompey sủa vang khi sát thủ lẻn vào lều của hoàng tử Hà Lan.",
+      "image_prompt": "Night scene inside a military tent: the pug barks loudly with motion lines, a shadowy assassin with a dagger freezes at the tent entrance, a prince stickman in bed.",
+      "chars": [
+        "PUG"
+      ],
+      "motion": "zoom_in",
+      "motion_prompt": "The pug barks loudly with small head bobs, the intruder freezes in place."
+    },
+    {
+      "id": "s10",
+      "narration": "Hoàng tử tỉnh dậy kịp thời, và Pug trở thành biểu tượng của hoàng gia Hà Lan.",
+      "image_prompt": "The prince stickman wearing a crown proudly holds the pug up high like a trophy, orange banners and confetti around them.",
+      "chars": [
+        "PUG"
+      ],
+      "motion": "pan_up",
+      "motion_prompt": "The prince lifts the pug higher and laughs, confetti falls."
+    },
+    {
+      "id": "s11",
+      "narration": "Hoàng hậu Josephine, vợ Napoleon, cũng có một chú Pug tên Fortune.",
+      "image_prompt": "A elegant lady stickman in an empire-style white dress and tiara cuddles the pug, which wears a tiny gold collar, inside a fancy French room.",
+      "chars": [
+        "PUG"
+      ],
+      "motion": "pan_left",
+      "motion_prompt": "The lady gently pets the pug, the pug wags its tail and looks up at her."
+    },
+    {
+      "id": "s12",
+      "narration": "Người ta kể rằng chú chó này từng cắn Napoleon vì ông dám ngồi lên giường của nó.",
+      "image_prompt": "A short Napoleon stickman with a bicorne hat jumps in pain on a bed, the pug angrily biting his leg, the lady laughing in the background.",
+      "chars": [
+        "PUG"
+      ],
+      "motion": "zoom_in",
+      "motion_prompt": "Napoleon hops in pain while the pug holds on to his leg, the lady laughs and points."
+    },
+    {
+      "id": "s13",
+      "narration": "Đến thời nữ hoàng Victoria, Pug trở thành giống chó được giới quý tộc Anh mê mẩn.",
+      "image_prompt": "A queen stickman in a black dress and small crown sits in a garden surrounded by five pugs, teacups on a table.",
+      "chars": [
+        "PUG"
+      ],
+      "motion": "zoom_out",
+      "motion_prompt": "The queen sips tea while the pugs around her play, sniff and wag their tails."
+    },
+    {
+      "id": "s14",
+      "narration": "Vậy điều gì làm Pug đặc biệt đến vậy?",
+      "image_prompt": "The pug in the center tilting its head curiously, a big question mark floating above it, plain cream background.",
+      "chars": [
+        "PUG"
+      ],
+      "motion": "zoom_in",
+      "motion_prompt": "The pug tilts its head left and right in confusion, the question mark bobs above it."
+    },
+    {
+      "id": "s15",
+      "narration": "Câu trả lời nằm ngay trên khuôn mặt của nó.",
+      "image_prompt": "Close-up of the pug's flat face, a magnifying glass held by the stickman's hand hovering over its nose.",
+      "chars": [
+        "PUG",
+        "MAN"
+      ],
+      "motion": "zoom_in",
+      "motion_prompt": "The man moves the magnifying glass slowly over the pug's nose, the pug sniffs it."
+    },
+    {
+      "id": "s16",
+      "narration": "Pug có mõm rất ngắn, gần như phẳng.",
+      "image_prompt": "Simple side-profile comparison: a long-snouted dog head on the left and the pug's flat-faced head on the right, both drawn in the same style. No text.",
+      "chars": [
+        "PUG"
+      ],
+      "motion": "pan_right",
+      "motion_prompt": "The long-nosed dog sniffs the air, the pug blinks and turns its head toward it."
+    },
+    {
+      "id": "s17",
+      "narration": "Chính chiếc mõm ấy khiến chúng thở khò khè và ngáy to như một ông chú sau bữa nhậu.",
+      "image_prompt": "The pug asleep on its back on a sofa, mouth open, big snore lines and Zzz shapes drawn as simple swirls, the stickman covering his ears.",
+      "chars": [
+        "PUG",
+        "MAN"
+      ],
+      "motion": "zoom_out",
+      "motion_prompt": "The pug snores on its back with its belly rising and falling, the man covers his ears and sighs."
+    },
+    {
+      "id": "s18",
+      "narration": "Nhưng cũng chính vì thế, Pug rất sợ nóng.",
+      "image_prompt": "The pug lying flat on a cool tile floor panting with tongue out, a big blazing sun outside the window, a thermometer on the wall in red.",
+      "chars": [
+        "PUG"
+      ],
+      "motion": "zoom_in",
+      "motion_prompt": "The pug pants heavily with its tongue out, its sides rising and falling, the sun shimmers outside."
+    },
+    {
+      "id": "s19",
+      "narration": "Mùa hè, chỉ cần chạy nhiều một chút là chúng có thể bị sốc nhiệt.",
+      "image_prompt": "The stickman jogging happily while the pug lags far behind, exhausted and panting heavily, heat wave lines rising from the road.",
+      "chars": [
+        "PUG",
+        "MAN"
+      ],
+      "motion": "pan_left",
+      "motion_prompt": "The man jogs forward happily while the pug slows down, panting, far behind."
+    },
+    {
+      "id": "s20",
+      "narration": "Vì vậy, hãy dắt Pug đi dạo vào sáng sớm hoặc chiều mát.",
+      "image_prompt": "The stickman walks the pug on a leash in a park at early morning, soft yellow sunrise, birds, both calm and happy.",
+      "chars": [
+        "PUG",
+        "MAN"
+      ],
+      "motion": "pan_right",
+      "motion_prompt": "The man and the pug walk calmly side by side along the path, birds fly across the sky."
+    },
+    {
+      "id": "s21",
+      "narration": "Đôi mắt to tròn của Pug cũng dễ bị trầy xước và nhiễm trùng.",
+      "image_prompt": "Close-up of the pug's big round eyes, one eye looking slightly watery, a small thorny bush branch near its face.",
+      "chars": [
+        "PUG"
+      ],
+      "motion": "zoom_in",
+      "motion_prompt": "The pug blinks its watery eye slowly, the leaf on the branch sways."
+    },
+    {
+      "id": "s22",
+      "narration": "Bạn nên lau mắt và các nếp nhăn trên mặt cho chúng mỗi ngày.",
+      "image_prompt": "The stickman gently wipes the pug's face wrinkles with a soft cloth, the pug sitting still with eyes closed contentedly.",
+      "chars": [
+        "PUG",
+        "MAN"
+      ],
+      "motion": "zoom_out",
+      "motion_prompt": "The man gently wipes the pug's face with the cloth, the pug closes its eyes contentedly."
+    },
+    {
+      "id": "s23",
+      "narration": "Thêm một bí mật nữa: Pug là cỗ máy ăn không biết no.",
+      "image_prompt": "The pug sitting in front of a huge stacked food bowl taller than itself, eyes sparkling, drool drop at the mouth.",
+      "chars": [
+        "PUG"
+      ],
+      "motion": "zoom_in",
+      "motion_prompt": "The pug stares at the tall food bowls, licks its lips and a drop of drool falls."
+    },
+    {
+      "id": "s24",
+      "narration": "Chỉ cần bạn mở tủ lạnh, nó sẽ có mặt ngay lập tức.",
+      "image_prompt": "Kitchen scene: the stickman opens a fridge and the pug has appeared instantly right at his feet, speed lines behind it.",
+      "chars": [
+        "PUG",
+        "MAN"
+      ],
+      "motion": "pan_left",
+      "motion_prompt": "The man opens the fridge door wider, the pug rushes in and sits at his feet looking up."
+    },
+    {
+      "id": "s25",
+      "narration": "Nhưng Pug rất dễ béo phì, và cân nặng thừa làm việc thở càng khó hơn.",
+      "image_prompt": "Side by side: a slim healthy pug on the left and a very round overweight pug on the right struggling to breathe, both in the same style. No text.",
+      "chars": [
+        "PUG"
+      ],
+      "motion": "pan_right",
+      "motion_prompt": "The fat pug breathes heavily with its belly moving, the slim pug looks at it and blinks."
+    },
+    {
+      "id": "s26",
+      "narration": "Một con Pug khỏe mạnh thường chỉ nặng khoảng sáu đến tám ký.",
+      "image_prompt": "The pug standing on a small bathroom scale, looking down at it nervously, the stickman kneeling beside it reading the scale.",
+      "chars": [
+        "PUG",
+        "MAN"
+      ],
+      "motion": "zoom_in",
+      "motion_prompt": "The pug shifts nervously on the scale, the man reads the number and nods."
+    },
+    {
+      "id": "s27",
+      "narration": "Và đừng tin lông ngắn là ít rụng nhé.",
+      "image_prompt": "The stickman holding a lint roller in shock, his dark sofa completely covered in light pug hair, the pug sitting innocently on it.",
+      "chars": [
+        "PUG",
+        "MAN"
+      ],
+      "motion": "zoom_out",
+      "motion_prompt": "The man rolls the lint roller in the air in shock, the pug on the sofa wags its tail."
+    },
+    {
+      "id": "s28",
+      "narration": "Pug rụng lông quanh năm, nhiều đến mức bạn sẽ thấy lông trên mọi bộ quần áo.",
+      "image_prompt": "The stickman in a black suit at an office looking down at his clothes covered in tiny beige hairs, coworker stickmen laughing.",
+      "chars": [
+        "MAN"
+      ],
+      "motion": "pan_left",
+      "motion_prompt": "The man looks down at his hairy clothes and brushes them, the coworkers laugh and point."
+    },
+    {
+      "id": "s29",
+      "narration": "Về tính cách, Pug là chiếc bóng của chủ.",
+      "image_prompt": "The stickman walks through a house and the pug follows exactly behind him like a shadow, small dotted footstep trail.",
+      "chars": [
+        "PUG",
+        "MAN"
+      ],
+      "motion": "pan_right",
+      "motion_prompt": "The man walks across the room and the pug follows right behind him step by step."
+    },
+    {
+      "id": "s30",
+      "narration": "Bạn vào bếp, nó theo vào bếp. Bạn vào nhà vệ sinh, nó ngồi chờ ngay trước cửa.",
+      "image_prompt": "The pug sitting patiently right in front of a closed bathroom door, staring at it with big loyal eyes.",
+      "chars": [
+        "PUG"
+      ],
+      "motion": "zoom_in",
+      "motion_prompt": "The pug sits facing the closed door, its tail wagging slowly as it waits."
+    },
+    {
+      "id": "s31",
+      "narration": "Chúng ngủ tới mười bốn tiếng mỗi ngày, nhưng lúc nào cũng muốn nằm cạnh bạn.",
+      "image_prompt": "Night bedroom: the stickman reading in bed, the pug curled up asleep pressed against his side, a moon outside the window.",
+      "chars": [
+        "PUG",
+        "MAN"
+      ],
+      "motion": "zoom_out",
+      "motion_prompt": "The man turns a page of his book, the pug sleeping next to him breathes slowly."
+    },
+    {
+      "id": "s32",
+      "narration": "Pug không phải chó giữ nhà giỏi, vì nó thân thiện với cả người lạ.",
+      "image_prompt": "A burglar stickman with a mask and sack climbs in through a window while the pug happily wags its tail and offers him a toy.",
+      "chars": [
+        "PUG"
+      ],
+      "motion": "pan_left",
+      "motion_prompt": "The burglar climbs in slowly, the pug wags its tail happily and drops the toy for him."
+    },
+    {
+      "id": "s33",
+      "narration": "Một Pug được chăm sóc tốt có thể sống từ mười hai đến mười lăm năm.",
+      "image_prompt": "Wide warm scene: the stickman sitting on a park bench at sunset with an older grey-muzzled pug resting beside him, autumn leaves.",
+      "chars": [
+        "PUG",
+        "MAN"
+      ],
+      "motion": "zoom_out",
+      "motion_prompt": "The man strokes the old pug on the bench, autumn leaves fall slowly, the sun sets."
+    },
+    {
+      "id": "s34",
+      "narration": "Nếu bạn muốn nuôi Pug, hãy chọn nơi bán uy tín và hỏi kỹ về sức khỏe của bố mẹ nó.",
+      "image_prompt": "The stickman kneeling and talking to a friendly breeder stickman, a healthy pug puppy sniffing his hand, clean bright kennel background.",
+      "chars": [
+        "PUG",
+        "MAN"
+      ],
+      "motion": "zoom_in",
+      "motion_prompt": "The puppy sniffs the man's hand and wags its tail, the breeder smiles."
+    },
+    {
+      "id": "s35",
+      "narration": "Còn bạn, bạn đã từng bị một chú Pug \"thao túng\" bằng ánh mắt này chưa?",
+      "image_prompt": "Close-up of the pug giving huge sparkling puppy eyes directly at the viewer, head tilted, irresistible expression.",
+      "chars": [
+        "PUG"
+      ],
+      "motion": "zoom_in",
+      "motion_prompt": "The pug looks at the viewer with big sparkling eyes, tilts its head and wags its tail."
+    }
+  ]
+}
